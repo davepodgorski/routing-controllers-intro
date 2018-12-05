@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def welcome
-    render :welcome
+    @header = "TA DA I AM VERY GOOD AT REALS THANK YOU"
+
   end
 
   def about
